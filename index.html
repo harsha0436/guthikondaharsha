@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsha Vardhan Reddy - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Same styles as before */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef2f3;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ffdd57;
+        }
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #1d359e;
+            padding-bottom: 5px;
+        }
+        .profile-pic {
+            display: block;
+            margin: 20px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .job {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-left: 5px solid #667eea;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .job:hover {
+            transform: scale(1.02);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+        a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Icon styles */
+        .icon {
+            margin-right: 10px;
+            color: #667eea;
+        }
+        .contact-info a {
+            display: inline-block;
+            margin: 5px 0;
+            color: #333;
+        }
+        .contact-info a:hover {
+            color: #667eea;
+        }
+
+        /* Remove bullet points for Technical Skills */
+        #skills ul {
+            list-style-type: none; /* Removes bullet points */
+            padding-left: 0; /* Removes left padding */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Harsha Vardhan Reddy</h1>
+        <p>Java Full Stack Developer</p>
+        <img src="profile.jpeg" alt="Harsha Vardhan Reddy" class="profile-pic">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Java Full Stack Developer with over 6 years of experience designing and developing scalable enterprise applications. My skills include front-end technologies like React.js and Angular, and back-end development using Java, Spring Boot, and microservices. I also have experience in cloud technologies like AWS and Azure, enabling me to excel at cloud migrations and deploying serverless solutions. With a strong desire to create high-performance systems, I have successfully worked with cross-functional teams in Agile environments to deliver innovative solutions in finance, healthcare, retail, and telecommunication industries.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <!-- Experience at Allstate -->
+        <div class="job">
+            <h3>Sr. Full Stack Developer - Allstate</h3>
+            <p><em>Aug 2024 - Present | Chicago, IL</em></p>
+            <ul>
+                <li>Developed scalable microservices using Spring Boot and Java for cloud-based applications.</li>
+                <li>Built dynamic, high-performing UI components using React.js, improving user experience and performance.</li>
+                <li>Deployed applications on AWS using Kubernetes (EKS), optimizing application scalability and availability.</li>
+                <li>Worked closely with cross-functional teams to integrate various third-party APIs into the system.</li>
+                <li>Implemented security features such as OAuth2 authentication for secure user access to microservices.</li>
+                <li>Improved development workflows through the use of CI/CD tools such as Jenkins and GitHub Actions.</li>
+            </ul>
+        </div>
+    
+        <!-- Experience at UHG Optum -->
+        <div class="job">
+            <h3>Sr. Full Stack Developer - UHG Optum</h3>
+            <p><em>Sep 2022 - July 2024 | Eden Prairie, MN</em></p>
+            <ul>
+                <li>Developed RESTful APIs and GraphQL services to provide seamless data retrieval and manipulation.</li>
+                <li>Integrated front-end applications with Azure and AWS services, ensuring smooth cloud service interactions.</li>
+                <li>Enhanced cloud security by implementing OAuth2 and JWT authentication for secure API access.</li>
+                <li>Collaborated with UX/UI designers to create accessible and responsive designs using Angular and React.</li>
+                <li>Optimized system performance by employing microservices patterns, allowing the system to handle high loads efficiently.</li>
+                <li>Participated in regular code reviews and peer mentorship, promoting best practices and knowledge sharing within the team.</li>
+            </ul>
+        </div>
+    
+        <!-- Experience at IKEA -->
+        <div class="job">
+            <h3>Java Developer - IKEA</h3>
+            <p><em>Feb 2020 - Aug 2022 | Conshohocken, PA</em></p>
+            <ul>
+                <li>Designed and implemented an interactive React e-commerce dashboard, enhancing the customer experience.</li>
+                <li>Integrated React frontend with Azure APIs for real-time updates, improving the user interface and reducing page load times.</li>
+                <li>Configured Azure App Services for hosting scalable applications, reducing deployment times and improving application availability.</li>
+                <li>Contributed to the migration of monolithic applications to microservices-based architecture, improving maintainability and scalability.</li>
+                <li>Worked with cross-functional teams to develop solutions that adhered to both business requirements and technical specifications.</li>
+                <li>Improved the security of the e-commerce platform by implementing SSL/TLS encryption for sensitive customer data.</li>
+            </ul>
+        </div>
+    
+        <!-- Experience at Lenskart -->
+        <div class="job">
+            <h3>Full Stack Developer - Lenskart</h3>
+            <p><em>Feb 2019 - Jan 2020 | Faridabad, India</em></p>
+            <ul>
+                <li>Developed an Angular-based customer portal with AWS-hosted microservices, improving customer satisfaction and interaction.</li>
+                <li>Enhanced UI performance with Redux state management and lazy loading, reducing the time to interact with the system.</li>
+                <li>Implemented authentication using AWS Cognito and IAM roles, ensuring secure and seamless user logins.</li>
+                <li>Designed and built a recommendation engine for personalized shopping experiences, improving customer engagement.</li>
+                <li>Collaborated with the product team to integrate new features, such as real-time inventory updates and product recommendations.</li>
+                <li>Optimized application performance through the use of AWS CloudFront and S3 for faster content delivery.</li>
+            </ul>
+        </div>
+    </section>
+    
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>Technical Skills</h3>
+        <ul>
+            <li><i class="fas fa-code icon"></i><strong>Languages:</strong> Java, JavaScript, TypeScript, SQL</li>
+            <li><i class="fab fa-react icon"></i><strong>Frontend Technologies:</strong> React.js (React 18+), Redux, React Hooks, Context API, Angular (Angular 14+), RxJS, NgRx, TypeScript, Bootstrap, Material UI, HTML5, CSS3, JavaScript</li>
+            <li><i class="fas fa-cogs icon"></i><strong>Backend Technologies:</strong> Java 17, Spring Boot, Spring MVC, Node.js, Express.js, RESTful APIs, GraphQL, WebSocket, Microservices architecture</li>
+            <li><i class="fab fa-cloud icon"></i><strong>Cloud Technologies:</strong> AWS, Azure, Cloud Migration</li>
+            <li><i class="fab fa-github icon"></i><strong>CI/CD & DevOps:</strong> Jenkins, GitHub Actions, Azure DevOps, GitLab CI/CD, CloudFormation, Docker, Kubernetes (EKS/AKS)</li>
+            <li><i class="fas fa-database icon"></i><strong>Database & Storage:</strong> PostgreSQL, MySQL, SQL Server, Oracle, NoSQL Databases: MongoDB, DynamoDB, Azure Cosmos DB</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><strong>Harsha Vardhan Reddy Guthikonda</strong></p>
+        <p><strong>Phone:</strong> <a href="tel:+17792358798"><img src="https://img.icons8.com/ios/50/000000/phone.png" alt="Phone" style="width: 20px; height: 20px; margin-right: 8px; color: #2ff321;"> 7792358798</a></p>
+        <p><strong>Email:</strong> <a href="mailto:guthikondaharshareddy@gmail.com"><img src="https://img.icons8.com/ios/50/000000/email.png" alt="Email" style="width: 20px; height: 20px; margin-right: 8px; color: #ff4747;"> guthikondaharshareddy@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/harsha-vardhan-reddy-guthikonda-581317173?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BArYutht4SRW52YUK%2Bb9Z5Q%3D%3D" target="_blank"><img src="https://img.icons8.com/ios/50/000000/linkedin.png" alt="LinkedIn" style="width: 20px; height: 20px; margin-right: 8px; color: #1f60ec;"> Harsha Vardhan Reddy - LinkedIn</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/harsha0436" target="_blank"><img src="https://img.icons8.com/ios/50/000000/github.png" alt="GitHub" style="width: 20px; height: 20px; margin-right: 8px; color: #24292F;"> Harsha Vardhan Reddy - GitHub</a></p>
+    </section>
+    
+    
+    
+    
+
+    <footer>
+        <p>&copy; 2025 Harsha Vardhan Reddy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
